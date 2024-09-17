@@ -1,0 +1,16 @@
+paras_adapt_model:
+  capacity: 64
+  num_class: 1000
+  dataset: imagenet_c
+  ema_nu: 0.001
+  update_frequency: 64
+  steps: 1
+  bn_alpha: 0.05
+  lambda_bn_d: 0.05
+  lambda_bn_w: 0.0
+  e_margin: 0.4
+  paras_optim:
+    name: Adam
+    lr: 0.000001
+    beta: 0.9
+    wd: 0.0
